@@ -1,0 +1,103 @@
+<! DOCTYPE html>
+
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<title>sideHustle | Home Page</title>
+		<style type="text/css">
+
+			*, *::before, *::after{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+
+			html{
+				font-size: 62.5%;
+				font-family: Calibri;
+			}
+
+			body{
+				width: 100px;
+				height: 100vh;		
+			}
+
+			.container{
+				width: 100vw;
+				height: 100vh;
+				background-image: linear-gradient(to right bottom, rgba(0,0,0, .8), rgba(0,0,0, .7)), url(elephant.jpg);
+				background-repeat: no-repeat;;
+				background-size: cover;
+				display: flex;
+				flex-direction: row;
+				position: relative;
+				overflow: hidden;
+			}
+
+			.logo a{
+				text-decoration: none;
+				font-size: 3rem;
+				color: #fff;
+				display: inline-block;
+				position: absolute;
+				left: 3rem;
+				top: 3rem;
+			}
+
+			.navigation{
+				width: 100vw;
+				height: 10vh;
+			}
+
+			.navigation ul{
+				list-style: none;
+				display: flex;
+				justify-content: flex-end;
+				padding-top: 3.5rem;
+				padding-right: 15rem;
+			}
+
+			.navigation ul li a{
+				text-decoration: none;
+				color: #fff;
+				font-size: 2rem;
+				display: inline;	
+				margin-right: 5rem;
+			}
+
+			.banner h1{
+				position: absolute;
+				top: 30%;
+				left: 50%;
+				transform: translateX(-50%);
+				display: block;
+				font-size:5rem;
+				color: #fff;
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+			<nav class="navigation">			
+				<h3 class="logo"><a href="index.html">sideHustle</a></h3>
+	
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+				</ul>
+			</nav>
+
+			<div class="banner">
+				<h1> WE ARE ALWAYS HERE FOR YOU! </h1>
+			</div>
+
+		</div>
+
+	</body>
+</html
